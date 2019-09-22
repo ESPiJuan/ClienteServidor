@@ -1,0 +1,81 @@
+{
+	"info": {
+		"_postman_id": "7b4b9f63-a531-4e59-bfab-fca08e82a3cf",
+		"name": "API1",
+		"description": "# Introduction\nThis API use three end-points, two of them use get request, the last one uses get and post.\n\n\n# Overview\nThe code is write in spanish.\n\n\n\n# Error Codes\nI did not found any error.\n\n# Rate limit\nThe limit of request is one.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://192.168.103.65:40/datoscliente",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.103.65:40/datosclientes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.103.65:40/datosclientefiltro",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "Nombre",
+							"value": "pedro",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://192.168.103.65:40/datosclientefiltro?Nombre=Pedro",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"103",
+						"65"
+					],
+					"port": "40",
+					"path": [
+						"datosclientefiltro"
+					],
+					"query": [
+						{
+							"key": "Nombre",
+							"value": "Pedro"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
