@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Churreria El Cruce</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="policemanImage">policemanImage</string>
+    <string name="policeman_image">policeman_image</string>
+    <string name="consultatextview">Consultar Deudores</string>
+    <string name="title_activity_consuta">Consulta un deudor</string>
+    <string name="personaConsultaTextView">Que persona quiere consultar?</string>
+    <string name="consultaButton">Consultar</string>
+    <string name="consultarButton" />
+    <string name="nombreConsultaEditText" />
+    <string name="hint">Persona a consultar?</string>
+    <string name="title_activity_deudores__info">Datos de los deudores</string>
+    <string name="deudoresInfo" />
+    <string name="nombreText">Nombre  del deudor</string>
+    <string name="bolsa_dinero">bolsa_dinero</string>
+    <string name="deudorDeudaInfoTextView" />
+    <string name="deudaDeudorText">Deuda del deudor</string>
+    <string name="carcelimage">carcelImage</string>
+    <string name="agregarText">Agrege un deudor</string>
+    <string name="title_activity_agregar_deudor">Añadir un nuevo deudor</string>
+    <string name="agregarDeudorText">Agregue un nuevo deudor</string>
+    <string name="añadirNuevoDeudorText">Nombre del deudor</string>
+    <string name="deudaNuevaText">Deuda</string>
+    <string name="enviarButton">enviar</string>
+    <string name="nuevoNombre">Nombre</string>
+    <string name="nuevoNombreEdit" />
+    <string name="nuevaDeuda" />
+
+
+</resources>
